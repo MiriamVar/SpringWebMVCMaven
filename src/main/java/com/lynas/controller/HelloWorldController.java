@@ -25,7 +25,7 @@ public class HelloWorldController extends HttpServlet {
         return "helloworld";
     }
 
-    @RequestMapping("/processFromVersionTwo")
+    @RequestMapping("/processFormVersionTwo")
     public String letsShoutDude(HttpServletRequest request, Model model){
 
         String theName = request.getParameter("studentName");
